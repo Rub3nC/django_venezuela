@@ -21,7 +21,7 @@ setup(
     author_email='ruben.colina@gmail.com',
     classifiers=[
         'Framework :: Django',
-        'License :: OSI Approved :: GPL v2 License',
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
     ],

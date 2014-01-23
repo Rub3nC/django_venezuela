@@ -27,6 +27,6 @@ Description: django_venezuela
         3. Corre las migraciones con el comando `python manage.py migrate` para crear los modelos Estado, Ciudad, Municipio y Parroquia.
 Platform: UNKNOWN
 Classifier: Framework :: Django
-Classifier: License :: OSI Approved :: GPL v2 License
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
 Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python

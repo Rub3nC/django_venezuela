@@ -7,7 +7,4 @@ django_venezuela.egg-info/SOURCES.txt
 django_venezuela.egg-info/dependency_links.txt
 django_venezuela.egg-info/top_level.txt
 venezuela/__init__.py
-venezuela/admin.py
 venezuela/models.py
-venezuela/tests.py
-venezuela/views.py
