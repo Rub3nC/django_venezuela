@@ -15,7 +15,7 @@ Quick start
         'venezuela',
     )
 
-3. Sincroniza el modelo de datos `python manage.py syncdb`
+3. Crea la base de datos con soporte UTF8, en mysql la creamos de la siguiente manera::
+    CREATE DATABASE db_name CHARACTER SET utf8 COLLATE utf8 utf8_general_ci;
 
-4. Corre las migraciones con el comando `python manage.py migrate` para crear los modelos Estado, Ciudad, Municipio y Parroquia.
-
+4. Sincroniza el modelo de datos `python manage.py syncdb`
