@@ -62,7 +62,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'venezuela.sqlite3'),
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'venezuela',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': '',
+#         'PORT': '',
+#         'OPTIONS': {'init_command': 'SET storage_engine=INNODB'}
     }
+
 }
 
 # Internationalization
