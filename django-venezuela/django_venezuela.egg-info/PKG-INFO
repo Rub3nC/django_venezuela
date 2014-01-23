@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-venezuela
-Version: 0.2
+Version: 0.3
 Summary: Aplicación en Django que contiene los modelos de estados, ciudades, municipios y parroquias de Venezuela.
 Home-page: http://rub3nc.wordpress.com/
 Author: Rubén Colina
@@ -9,7 +9,7 @@ License: GPL v2 License
 Description: django_venezuela
         ================
         
-        Aplicación en Django que contiene estados, ciudades, municipios y parroquias de Venezuela
+        Aplicación en Django que contiene estados, ciudades, municipios y parroquias de Venezuela basada en https://github.com/marydn/venezuela-sql
         
         
         Quick start
@@ -26,6 +26,8 @@ Description: django_venezuela
         3. Sincroniza el modelo de datos `python manage.py syncdb`
         
         4. Corre las migraciones con el comando `python manage.py migrate` para crear los modelos Estado, Ciudad, Municipio y Parroquia.
+        
+        
 Platform: UNKNOWN
 Classifier: Framework :: Django
 Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
