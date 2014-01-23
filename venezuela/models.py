@@ -17,7 +17,7 @@ class Estado(models.Model):
 class Ciudad(models.Model):
     estado = models.ForeignKey('Estado')
     ciudad = models.CharField(max_length=100)
-    capital = models.CharField(max_length=100)
+    capital = models.IntegerField(default=0)
 
     def __unicode__(self):
         return self.ciudad
