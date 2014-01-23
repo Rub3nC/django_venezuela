@@ -4,6 +4,7 @@ from django.db import models
 
 class Estado(models.Model):
     estado = models.CharField(max_length=50)
+    iso_3166_2 = models.CharField(max_length=5)
 
     def __unicode__(self):
         return self.estado
