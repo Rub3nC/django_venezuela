@@ -36,3 +36,15 @@ class Municipio(models.Model):
     class Meta:
         verbose_name = u'Municipio'
         verbose_name_plural = u'Municipios'
+
+
+class Parroquia(models.Model):
+    municipio = models.ForeignKey('Municipio')
+    parroquia = models.CharField(max_length=100)
+
+    def __unicode__(self):
+        return self.parroquia
+
+    class Meta:
+        verbose_name = u'Parroquía'
+        verbose_name_plural = u'Parroquías'
