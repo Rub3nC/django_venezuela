@@ -24,3 +24,15 @@ class Ciudad(models.Model):
     class Meta:
         verbose_name = u'Ciudad'
         verbose_name_plural = u'Ciudades'
+
+
+class Municipio(models.Model):
+    estado = models.ForeignKey('Estado')
+    municipio = models.CharField(max_length=100)
+
+    def __unicode__(self):
+        return self.municio
+
+    class Meta:
+        verbose_name = u'Municipio'
+        verbose_name_plural = u'Municipios'
