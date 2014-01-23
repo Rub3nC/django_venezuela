@@ -32,7 +32,7 @@ class Municipio(models.Model):
     municipio = models.CharField(max_length=100)
 
     def __unicode__(self):
-        return self.municio
+        return self.municipio
 
     class Meta:
         verbose_name = u'Municipio'
