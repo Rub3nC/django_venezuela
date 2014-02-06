@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-venezuela
-Version: 0.3
+Version: 0.4.1
 Summary: Aplicación en Django que contiene los modelos de estados, ciudades, municipios y parroquias de Venezuela.
 Home-page: http://rub3nc.wordpress.com/
 Author: Rubén Colina
@@ -23,10 +23,10 @@ Description: django_venezuela
                 'venezuela',
             )
         
-        3. Sincroniza el modelo de datos `python manage.py syncdb`
+        3. Crea la base de datos con soporte UTF8, en mysql la creamos de la siguiente manera::
+            CREATE DATABASE db_name CHARACTER SET utf8 COLLATE utf8 utf8_general_ci;
         
-        4. Corre las migraciones con el comando `python manage.py migrate` para crear los modelos Estado, Ciudad, Municipio y Parroquia.
-        
+        4. Sincroniza el modelo de datos `python manage.py syncdb`
         
 Platform: UNKNOWN
 Classifier: Framework :: Django
