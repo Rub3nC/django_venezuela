@@ -10,7 +10,9 @@ class Migration(SchemaMigration):
     def forwards(self, orm):
 
         # Changing field 'Ciudad.capital'
-        db.alter_column(u'venezuela_ciudad', 'capital', self.gf('django.db.models.fields.IntegerField')())
+        #db.alter_column(u'venezuela_ciudad', 'capital', self.gf('django.db.models.fields.IntegerField')())
+        db.delete_column(u'venezuela_ciudad', 'capital')
+        db.add_column(u'venezuela_ciudad', 'capital', self.gf('django.db.models.fields.IntegerField')())
 
     def backwards(self, orm):
 
